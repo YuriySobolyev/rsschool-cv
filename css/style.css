@@ -1,0 +1,76 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #495a95;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #747c97;
+    background: #f1f1f1;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    border-top: 1px solid #f1f1f1;
+    padding-top: 1em;
+}
+
+.wrapper {
+    background: #fff;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 1em;
+    position: relative;
+    box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url(/img/avatar.webp) no-repeat center center/cover;
+    right: 1em;
+    border-radius: 75px;
+    box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.23);
+}
+
+.code {
+    background: #f1f1f1;
+    padding: 1em;
+    font-size: .6em;
+    border-radius: 1em;
+    width: 450px;
+    box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.javascript {
+    font-family: monospace;
+}
+
+.bold {
+    color: #000066;
+    font-weight: bold;
+}
+
+.code_green {
+    color: #009900;
+}
+
+.code_purple {
+    color: #990099;
+}
+
+.code_blue {
+    color: #3366CC;
+}
