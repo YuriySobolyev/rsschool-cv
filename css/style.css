@@ -39,7 +39,7 @@ h3 {
     position: absolute;
     width: 150px;
     height: 150px;
-    background: url(/img/avatar.webp) no-repeat center center/cover;
+    background: url(../img/avatar.webp) no-repeat center center/cover;
     right: 1em;
     border-radius: 75px;
     box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.23);
